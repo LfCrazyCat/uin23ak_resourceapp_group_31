@@ -1,0 +1,22 @@
+:global(html), :global(body) {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #E1E5EE;
+}
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #E1E5EE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
