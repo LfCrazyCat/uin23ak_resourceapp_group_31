@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Oppgave krav: 
+Avhengigheter er:
+ next: vanligvis ville jeg opprettet et react-prosjekt, men i og med at linken i arbeidskrav 3 tilsier at vi skal bruke denne måten. 
+ react: react er inkludert og npm install er fulgt
+ react-dom:
+ react-router-dom: har satt opp routing til sidene som beskrives. 
+ sass: En kraftig css prosessor. Jeg har valgt å skrive "kode" med egen sass, og har kompilemert. Men siden jeg også kjører next.js som støtter rammevarket automatisk sass-en, uten ekstra konfigurasjon. 
+
+ Jeg vet at alle filtypene er lagt inn i respositoriet innen kort tid, men det er kun fordi jeg har laget mange prosjekter og respositories fordi jeg klarer ikke jobbe med flere prosjekter i en mappe- mange har jeg som "privat" men i og med dere ønsker å se at vi har lagt inn via GitHub desktop, så kommer jeg til å gjøre om de fleste som er relevante til offentlig- så dere kan se at jeg har holdt på med dette mye selvom mitt arbeidskrav "startet" og var "ferdig" under noen timer før fristen. 
