@@ -1,0 +1,107 @@
+// Selv om denne ikke brukes, men for å ha oppnådd kriteriene legger jeg med. 
+// Dette er SASS-en, som jeg har oversatt css-en jeg brukte i arbeidskrav 2.
+
+
+// Varialbler som er brukt flere ganger 
+$background-color: #E1E5EE;
+$text-color: #fff;
+$accent-color: #2A324B;
+$font-family: 'Montserrat', sans-serif;
+$navbar-font-size: 18px;
+$section-h1-font-size: 22px;
+$section-li-font-size: 19px;
+$font-weight-bold: 900;
+$font-weight-medium: 700;
+
+// helhetlig design for siden
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: $background-color; // henter fra gjenbrukte variabler
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: $font-family; // henter fra gjenbrukte variabler  
+}
+
+// design for header, nav
+header, nav {
+  width: 100%;
+  background-color: $background-color; // henter fra gjenbrukte variabler
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+// Design for navbar
+& ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20em;
+  display: flex;
+}
+
+li a {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  padding: 0 1em;
+  color: $text-color;
+  background-color: $accent-color; // henter fra gjennbrukte variabler
+  text-decoration: none;
+  text-align: center;
+  font-weight: $font-weight-bold; // henter fra gjenbrukte variabler
+  font-size: $navbar-font-size; // henter fra gjenbrukte variabler
+
+  // bruk av & operator brukes til å refere til overordnet selektor i nøsting
+  &:focus {
+    background-color: $text-color;
+    color: $accent-color; 
+    }
+  }
+ 
+
+// Design for hovedinnhold
+main {
+  background-color: $background-color; // henter fra gjenbrukte variabler
+  box-sizing: border-box;
+  padding: 0;
+}
+
+// Design for section 
+section {
+  width: 800px;
+  margin: 0em;
+  padding: 1em;
+  background-color: $text-color; // henter fra gjenbrukte variabler
+  color: $accent-color; // henter fra gjenbrukte variabler
+}
+h1 {
+  font-size: $section-h1-font-size;
+  font-weight: $font-weight-bold;
+}
+
+p, ul li {
+  font-weight: $font-weight-medium;
+  font-size: $section-li-font-size;
+}
+
+// MEDIA QUERIES
+@media only screen and (min-width: 600px) {
+  nav {
+    justify-content: center;
+
+    ul li {
+      margin-right: 35px;
+    }
+  }
+
+  section {
+    display: block;
+  }
+}

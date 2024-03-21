@@ -26,6 +26,30 @@
   */
 }
 
+.container {
+  background-color: #E1E5EE;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1200px;
+  margin-top: 20%;
+  display: grid;
+  flex-direction: column;
+  gap: 50px;
+}
+.container h1 {
+  background-color: #E1E5EE;
+  font-size: 32px;
+  align-items: center;
+}
+.container h2 {
+  background-color: aqua;
+  display: flex;
+}
+
+
+.container ul {
+  list-style: none;
+  align-items: center;
+}
 
 
 .card {
@@ -47,12 +71,15 @@
 .card span {
   display: inline-block;
   transition: transform 200ms;
+  font-size: 1rem;
+  color: #333333;
 }
 
 .card h2 {
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   margin-bottom: 0.5rem;
   color: #ffffff;
+  place-content: center;
 }
 
 .card p {
@@ -67,10 +94,6 @@
   text-wrap: balance; */
 }
 
-.card span {
-  font-size: 1rem;
-  color: #333333;
-}
 
 .card a:hover {
   background-color: #eeeeee;

@@ -25,7 +25,8 @@ export async function getStaticProps({ params }) {
 
 export default function ResourcesPage({ category, resources }) {
   return (
-    <div>
+    // Style for routing sidene 
+    <div className={styles.container}> 
       <h1>Ressurser for {category}</h1>
       <ul>
         {resources.map((resource, index) => (
