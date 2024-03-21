@@ -52,3 +52,12 @@ Avhengigheter er:
  Derfor er jeg usikker på om hvordan det er ønsket at siden skal se ut når den router til html, css, react, javascript og headless CMS- for arbeidskrav 2 vil ha samme design uansett hvem som trykkes på- det er kanskje det som også vil her, at menyen fortsatt skal være som på "hjem". Så det er vel kanskje SPA jeg skal gå etter? Nå har ikke jeg vært på særlig mange forelsninger, så hvis det har vært mer forklaringer rundt arbeidskravet så har ikke jeg fått med meg det. 
 
  Jeg har testet appen i nettleser, som mobilversjon og den vil route deg videre til de ulike ressursene. 
+
+ Har hatt litt problemer med å få lik stil på ressursidene og på hovedsiden til applikasjonen, så måtte bruke midler for å definere felles struktur. Derfor har jeg en fil som heter Layouts.js i mappen med komponenter (components). Fikk det ikke til å gå, men når jeg flyttet _app.js fra mappen components til pages-mappen så funket det med globale regler. 
+
+ Jeg ønsket å ha tilgang på alle "linker" uavhengig hvilken side man var på- men det ble mye bytting fra <span> til <a tagg> siden det noe ikke skal ha span inne i a en a tagg. Riktig bruk for å få til dette ville være 
+ <nav className={styles.nav}>
+ <Link href="/html">
+ <a className={styles.link}>HTML</a>
+ </link> 
+ Men siden det ikke står spesifikt hva som skal gjøres, velger jeg ikke å gjøre dette men jeg ønsker likevel å ha teksten på sidene som ikke er på home, så kan jeg evt. gjøre dette i en senere anledning. 

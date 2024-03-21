@@ -1,10 +1,11 @@
-import Image from "next/image";
-import styles from "./styles/page.module.css";
+import styles from './styles/page.module.scss';
 import Link from 'next/link';
+import Layout from '../components/Layout';
 
 
 export default function Home() {
   return (
+    <Layout>
     <main className={styles.main}>
             <div className={styles.grid}>
               <Link href="/resources/html" passHref>
@@ -34,6 +35,7 @@ export default function Home() {
               </Link>
       </div>
       </main>
+      </Layout>
   );
 };
 // Til opplysning så gikk jeg først for <a tag men måtte gå over til span, så vil ikke få åpnet 

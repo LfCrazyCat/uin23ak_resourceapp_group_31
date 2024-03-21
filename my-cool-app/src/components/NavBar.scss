@@ -1,7 +1,14 @@
+// components/NavBar.scss 
+// design for navigasjonsmey (som ikke er klikkbar)
+
 nav {
   ul {
     display: flex;
     list-style: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    place-content: flex-start;
+    gap: 55px;
   }
 
   li {
