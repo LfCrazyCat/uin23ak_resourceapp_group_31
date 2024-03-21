@@ -50,4 +50,5 @@ Avhengigheter er:
 
  Jeg har vært usikker på flere ting, siden det skal være routing så tolker jeg det som at at du kommer på side når du klikker på knappen. Arbeidskrav 2 var å lage et ressursarkiv med html, css og js for en hjemmeside. Routing kan innebære flere ting; veilede til en bestemt side, sett data eller endre på ting uten at siden må lastes ned på nytt. 
  Derfor er jeg usikker på om hvordan det er ønsket at siden skal se ut når den router til html, css, react, javascript og headless CMS- for arbeidskrav 2 vil ha samme design uansett hvem som trykkes på- det er kanskje det som også vil her, at menyen fortsatt skal være som på "hjem". Så det er vel kanskje SPA jeg skal gå etter? Nå har ikke jeg vært på særlig mange forelsninger, så hvis det har vært mer forklaringer rundt arbeidskravet så har ikke jeg fått med meg det. 
- 
+
+ Jeg har testet appen i nettleser, som mobilversjon og den vil route deg videre til de ulike ressursene. 

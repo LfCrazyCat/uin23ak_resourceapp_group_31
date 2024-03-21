@@ -1,7 +1,7 @@
 // app/resources/[category]
 import React from 'react';
 import resources from '../../pages/resources/ressurser';
-import styles from '../../app/styles/page.module.css';
+import styles from '../../app/styles/page.module.scss';
 
 
 export async function getStaticPaths() {
@@ -40,5 +40,7 @@ export default function ResourcesPage({ category, resources }) {
     </div>
   );
 }
+
+
 
 

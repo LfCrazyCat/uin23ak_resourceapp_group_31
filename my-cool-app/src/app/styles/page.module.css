@@ -115,6 +115,13 @@
     font-size: 0.9rem;
   }
 }
+  
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
 /*
 .center {
   display: block;

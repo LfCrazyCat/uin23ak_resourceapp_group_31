@@ -105,3 +105,134 @@ p, ul li {
     display: block;
   }
 }
+
+
+
+
+
+
+// Her har jeg konvertert css som er brukt til arbeidskrav 3 til sass. 
+
+// gjenbrukte variabler 
+$primary-bg-color: #E1E5EE;
+$card-bg-color: #2A324B;
+$font-color-dark: #333333;
+$font-color-light: #ffffff;
+$font-color-medium: #666666;
+$font-family-default: 'Montserrat', sans-serif;
+
+ 
+
+.main {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: $primary-bg-color; // gjenbrukt variabel
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  width: 80%;
+  max-width: 1200px;
+  margin-top: 20px;
+  background-color: transparent !important;
+}
+
+.code {
+  font-weight: 700;
+  font-family: $font-family-default; // gjenbrukt variabel
+}
+
+.container {
+  background-color: $primary-bg-color; // gjenbrukt variabel
+  font-family: $font-family-default; // gjenbrukt variabel
+  max-width: 1200px;
+  margin-top: 20%;
+  display: grid;
+  flex-direction: column;
+  gap: 50px;
+
+  
+  h1, h2 {
+    background-color: $primary-bg-color; // gjenbrukt variabel
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    background-color: aqua;
+    display: flex;
+  }
+
+  ul {
+    list-style: none;
+    align-items: center;
+  }
+
+  li {
+    font-size: 30px;
+  }
+}
+
+.card {
+  background-color: $card-bg-color; // gjenbrukt variabel
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  span {
+    display: inline-block;
+    transition: transform 200ms;
+    font-size: 1rem;
+    color: $font-color-dark; // gjenbrukt variabel
+  }
+
+  h2 {
+    font-size: 1.0rem;
+    margin-bottom: 0.5rem;
+    color: $font-color-light; // gjenbrukt variabel
+    place-content: center;
+  }
+
+  p {
+    font-size: 1rem;
+    color: $font-color-medium; // gjenbrukt variabel
+  }
+
+  a:hover {
+    background-color: #eeeeee;
+  }
+}
+
+/* Responsivt design */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 15px;
+    h2 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
