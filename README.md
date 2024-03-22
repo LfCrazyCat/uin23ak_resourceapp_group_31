@@ -59,3 +59,8 @@ my-cool-app/src/pages/resources/ressurser.js (denne kunne flyttes til en annen m
 README.md 
 
 
+Video av applikasjonen i går: 
+
+https://vimeo.com/926239764?share=copy
+
+
