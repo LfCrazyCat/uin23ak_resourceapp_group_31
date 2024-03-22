@@ -10,3 +10,11 @@ men har tvungen fjernet next flere ganger, og lastet ned på nytt. Etter det jeg
 
 Filer under mappen 'filer-tidligere-brukt' inneholder html, css fra arbeidskrav 2 (css har jeg konverter til sass) og det ligger andre filer jeg har jobbet med som ikke lenger er knyttet til my-cool-app. 
 
+
+Linker til de andre prosjektene jeg opprettet, i tilfelle (regner ikke med at dere skal gå gjennom disse men i tilfelle legger jeg noen av de offentlig helt til prosjektet blir godkjent/ikke godkjent,
+
+https://github.com/LfCrazyCat/testing-camping (opprettet via react kommando)
+https://github.com/LfCrazyCat/mappe_testing/tree/main
+https://github.com/LfCrazyCat/uin23ak3_resourceapp_groupNONE/tree/main
+
+
