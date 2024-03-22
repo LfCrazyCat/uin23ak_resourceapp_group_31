@@ -71,6 +71,44 @@ $font-family-default: 'Montserrat', sans-serif;
   }
 }
 
+.resourcesContainer {
+  background-color: #fffff;
+  padding: 20px; // Litt plass rundt innholdet
+  margin: auto; // Sentrer kontaineren på siden
+  max-width: 800px; // En maksbredde for å ikke strekke seg for bredt på store skjermer
+
+  h1 {
+    color: #333333; // Mørkere farge for tittelteksten
+    text-align: center; // Sentrer tittelen
+    margin-bottom: 20px; // Litt plass under tittelen
+  }
+
+  ul {
+    list-style-type: none; // Fjern listeprikker
+    padding: 0; // Fjern standard padding
+
+    li {
+      background-color: #E1E5EE; // Lys bakgrunn for hvert listeelement
+      margin-bottom: 10px; // Litt plass mellom hvert listeelement
+      padding: 10px; // Litt plass rundt linkteksten
+      border-radius: 5px; // Runde hjørner på bakgrunnen
+
+      a {
+        color: #2A324B; // Farge for lenkene
+        text-decoration: none; // Fjern understreking på lenker
+
+        &:hover {
+          text-decoration: underline; // Understreking når man holder musepekeren over
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
 .card {
   background-color: $card-bg-color; // gjenbrukt variabel
   padding: 20px;

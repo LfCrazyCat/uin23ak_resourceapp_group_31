@@ -61,3 +61,5 @@ Avhengigheter er:
  <a className={styles.link}>HTML</a>
  </link> 
  Men siden det ikke står spesifikt hva som skal gjøres, velger jeg ikke å gjøre dette men jeg ønsker likevel å ha teksten på sidene som ikke er på home, så kan jeg evt. gjøre dette i en senere anledning. 
+
+ Jeg burde kanskje gått vekk fra grid, og heller brukt flex for å gjøre det litt enklere. 

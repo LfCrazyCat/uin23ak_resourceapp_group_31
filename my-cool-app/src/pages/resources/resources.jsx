@@ -17,6 +17,12 @@ const Resources = ({ category, resources }) => {
 
  export default Resources;
 
+
+
+
+
+
+ 
 { /* 
 Noe problemer med importen her, så kommenterer bort 
 import ResourcesComponent from './resources/resources.jsx';*/ }

@@ -39,9 +39,6 @@ export default function ResourcesPage({ category, resources }) {
       </ul>
     </div>
   );
-}
-
-
-
+ };
 
 

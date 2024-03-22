@@ -3,6 +3,7 @@
 import React from 'react';
 import NavBar from './NavBar.jsx';
 
+
 const Layout = ({ children }) => {
   return (
     <>
@@ -11,5 +12,7 @@ const Layout = ({ children }) => {
     </>
   );
 };
+
+
 
 export default Layout;

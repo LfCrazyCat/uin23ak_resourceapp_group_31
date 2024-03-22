@@ -30,7 +30,7 @@ export default function Home() {
               </Link>
               <Link href="/resources/headless-cms" passHref>
                 <span className={styles.card} aria-label="Sanity and headless CMS">
-                  <h2>Sanity and headless CMS</h2>
+                  <h2>Headless CMS</h2>
                 </span>
               </Link>
       </div>
