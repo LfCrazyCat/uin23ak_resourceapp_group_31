@@ -17,4 +17,9 @@ https://github.com/LfCrazyCat/testing-camping (opprettet via react kommando)
 https://github.com/LfCrazyCat/mappe_testing/tree/main
 https://github.com/LfCrazyCat/uin23ak3_resourceapp_groupNONE/tree/main
 
+Video av hvordan appen fungerte i går- bare se bortsett fra at det er en sterk farge enn det som skulles, bare for å se raskt om den ville ta i mot stylen på resource arkivet. Det kan også ses i scss, sass, css at fargen som er brukt der 
+er ikke samme som på homePage. 
+https://vimeo.com/926239764?share=copy
+
+
 
