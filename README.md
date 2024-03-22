@@ -18,3 +18,44 @@ https://github.com/LfCrazyCat/mappe_testing/tree/main
 https://github.com/LfCrazyCat/uin23ak3_resourceapp_groupNONE/tree/main
 
 
+
+Nå kanskje dette kommer dobbelt, siden disse ble lagt inn på delievery: 
+
+
+my-cool-app/src/app/App.jsx
+
+my-cool-app/src/app/App.scss
+
+my-cool-app/src/app/page.js (denne inneholder app siden)
+
+my-cool-app/src/app/styles/globals.css (globale verdier for å få samme design på de andre app-sidene)
+
+my-cool-app/src/app/styles/page.module.css
+
+my-cool-app/src/app/style/page.module.scss
+
+my-cool-app/src/app/style/style.css
+
+my-cool-app/src/components/Layout.jsx
+my-cool-app/src/components/NavBar.jsx
+my-cool-app/src/components/NavBar.scss
+my-cool-app/src/pages/_app.jsx
+
+my-cool-app/src/components/NavBar.jsx (for å få design lik på navbar)
+
+my-cool-app/src/components/NavBar.scss (design for navbar)
+
+my-cool-app/src/pages/_app.jsx (henviser til delvise verdier)
+
+my-cool-app/src/pages/resources/[category].jsx
+
+my-cool-app/src/pages/resources/resources.js
+
+my-cool-app/src/pages/resources/resources.jsx
+my-cool-app/src/pages/resources/ressurser.js (denne kunne flyttes til en annen mappe). 
+
+my-cool-app/src/pages/resources/ressurser.js (denne kunne flyttes til en annen mappe). Ressursene som skal routes. 
+
+README.md 
+
+
