@@ -1,10 +1,11 @@
 // app/resources/[category]
 import React from 'react';
-import resources from '../../pages/resources/ressurser';
+import resources from './ressurser';
 import styles from '../../app/styles/page.module.scss';
 
 
 export async function getStaticPaths() {
+  console.log('Logging resources in getStaticPaths:', resources);
   const paths = resources.map(resource => ({
     params: { category: resource.category },
   }));
@@ -13,7 +14,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  console.log('Params in getStaticProps:', params);
   const categoryResources = resources.filter(resource => resource.category === params.category);
+  console.log(`Resources for category ${params.category}:`, categoryResources);
 
   return {
     props: {
@@ -24,6 +27,7 @@ export async function getStaticProps({ params }) {
 }
 
 export default function ResourcesPage({ category, resources }) {
+  console.log(`Rendering ResourcesPage for category ${category} with resources:`, resources);
   return (
     // Style for routing sidene 
     <div className={styles.container}> 
@@ -41,4 +45,6 @@ export default function ResourcesPage({ category, resources }) {
   );
  };
 
+ // Måtte legge inn console.log for å passe på at deler av filen blir lastet opp etter
+ // jeg fikk masse error brått og kunne se nærmere på problemet.. . 
 
