@@ -27,10 +27,15 @@ Avhengihetene er next, react, react-dom, react-router-dom og sass i alle fall.
 
 Filer som har en impact, er disse i my-cool-app:
 my-cool-app/src/app/index.js
+
 my-cool-app/src/app/layout.js (layout, for å kunne sette globale verdier oå den andre app sidene)
+
 my-cool-app/src/app/app.css
+
 my-cool-app/src/app/app.js
+
 my-cool-app/src/app/App.jsx
+
 my-cool-app/src/app/App.scss
 my-cool-app/src/app/page.js (denne inneholder app siden)
 my-cool-app/src/app/styles/globals.css (globale verdier for å få samme design på de andre app-sidene)
